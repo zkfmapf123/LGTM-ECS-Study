@@ -90,6 +90,11 @@ aws ecs update-service \
   --force-new-deployment
 ```
 
+## 회고...
+
+- ECS 형태로는 LGTM을 구축하는건 힘들다... K8S 에서 구축하는 것이 더 쉬울듯 하다...
+- 그냥 DataDog 쓰는것이 정신건강에 더 좋을듯하다..
+
 ## 참고
 
 - <a href="https://grafana.com/docs/loki/latest/configure/examples/configuration-examples/"> Loki Documents </a>
