@@ -1,0 +1,50 @@
+{
+  "hello": {
+    "lb_name": "service",
+    "sg_name": "hello",
+    "ecs_port": 3000,
+    "lb_prioirty": 100,
+    "lb_host_header": ["hello.leedonggyu.com"],
+    "lb_path": "/ping"
+  },
+  "bye" : {
+    "lb_name": "service",
+    "sg_name": "bye",
+    "ecs_port": 3000,
+    "lb_prioirty": 200,
+    "lb_host_header": ["bye.leedonggyu.com"],
+    "lb_path": "/ping"
+  },
+  "grafana": {
+    "lb_name": "monitoring",
+    "sg_name": "grafana",
+    "ecs_port": 3000,
+    "lb_prioirty": 101,
+    "lb_host_header": ["grafana.leedonggyu.com"],
+    "lb_path": "/"
+  },
+  "prometheus": {
+    "lb_name": "monitoring",
+    "sg_name": "prometheus",
+    "ecs_port": 9090,
+    "lb_prioirty": 102,
+    "lb_host_header": ["prometheus.leedonggyu.com"],
+    "lb_path": "/"
+  },
+  "loki": {
+    "lb_name": "monitoring",
+    "sg_name": "loki",
+    "ecs_port": 3100,
+    "lb_prioirty": 103,
+    "lb_host_header": ["loki.leedonggyu.com"],
+    "lb_path": "/ready"
+  },
+  "tempo": {
+    "lb_name": "monitoring",
+    "sg_name": "tempo",
+    "ecs_port": 3200,
+    "lb_prioirty": 104,
+    "lb_host_header": ["tempo.leedonggyu.com"],
+    "lb_path": "/ready"
+  }
+}

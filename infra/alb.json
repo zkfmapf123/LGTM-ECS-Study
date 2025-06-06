@@ -1,0 +1,8 @@
+{
+  "service": {
+    "acm": "arn:aws:acm:ap-northeast-2:182024812696:certificate/a6de3709-cf00-4c71-83b4-7df35ccf4900"
+  },
+  "monitoring": {
+    "acm": "arn:aws:acm:ap-northeast-2:182024812696:certificate/a6de3709-cf00-4c71-83b4-7df35ccf4900"
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "annotations": {
+    "list": []
+  },
+  "editable": true,
+  "fiscalYearStartMonth": 0,
+  "graphTooltip": 0,
+  "links": [],
+  "liveNow": false,
+  "panels": [
+    {
+      "datasource": {
+        "type": "tempo",
+        "uid": "tempo"
+      },
+      "fieldConfig": {
+        "defaults": {
+          "custom": {}
+        },
+        "overrides": []
+      },
+      "gridPos": {
+        "h": 8,
+        "w": 12,
+        "x": 0,
+        "y": 0
+      },
+      "id": 1,
+      "options": {
+        "nodeGraph": {
+          "enabled": true
+        },
+        "traces": {
+          "spanBar": {
+            "tag": "http.status_code"
+          }
+        }
+      },
+      "targets": [
+        {
+          "datasource": {
+            "type": "tempo",
+            "uid": "tempo"
+          },
+          "limit": 20,
+          "query": "",
+          "queryType": "traceql",
+          "refId": "A",
+          "search": "",
+          "serviceName": ""
+        }
+      ],
+      "title": "Traces",
+      "type": "traces"
+    }
+  ],
+  "refresh": "5s",
+  "schemaVersion": 38,
+  "style": "dark",
+  "tags": [],
+  "templating": {
+    "list": []
+  },
+  "time": {
+    "from": "now-6h",
+    "to": "now"
+  },
+  "timepicker": {},
+  "timezone": "",
+  "title": "Tempo Traces",
+  "uid": "tempo-traces",
+  "version": 1,
+  "weekStart": ""
+} 

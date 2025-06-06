@@ -1,0 +1,8 @@
+.terraform
+.terragrunt-cache
+.terraform.lock.hcl
+
+deploy.sh
+node_modules
+svc-deploy.sh
+task_def.json
