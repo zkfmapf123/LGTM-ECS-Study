@@ -2,6 +2,8 @@
 
 ## Architecture
 
+![archi](./public/arch.png)
+
 ## Project Setup
 
 ### Service
